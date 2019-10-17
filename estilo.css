@@ -1,0 +1,279 @@
+@charset "utf-8";
+/* CSS Document */
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+
+body{
+	margin-top:0px;
+	margin-bottom:0px;
+	margin:0px;
+	background-color:#FFF;
+	/*background-image:url(img/fondo.jpg);
+	background-position:top;
+	background-repeat:repeat-x;
+	background-attachment:fixed;*/
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	color:#999;
+	}
+.menusuperior{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#999;}	
+	
+a:link{ /* Todos los vinculos */
+text-decoration: none;
+color:#fff;
+font-family:Verdana, Geneva, sans-serif; font-size:11px;
+}
+a:visited { /* Vinculo visitado */
+color:#fff;
+text-decoration: none;
+}
+
+A:hover {  /* cuando pasa el raton encima */
+text-decoration: none;
+color:#ccc;}
+
+ 
+#img_logo{max-width:70%; display:block;}
+#img_logo2{max-width:70%; display:none;}
+#img_logo3{max-width:70%; display:none;}
+
+#_img_logo{max-width:30%; display:block;}
+#_img_logo2{max-width:30%; display:none;}
+#_img_logo3{max-width:30%; display:none;}
+
+#solicitud
+{max-width:100%;}
+#solicitud2
+{max-width:90%; display:none;}
+#solicitud3
+{max-width:90%;display:none;}
+
+
+#mitabla{
+	max-width:100%;	
+ }
+ 
+	 
+table{
+	border-spacing:0px;	
+	border-collapse:collapse;
+
+	}
+tr, td{
+	padding:0px;
+	border:none;
+	}	
+
+#portada{
+    width: 90%;
+    float:none;
+	vertical-align:top;
+}
+#cursos{
+	width:80%;
+	vertical-align:top;
+	
+	}
+.art_cursos{
+	max-width:210px;
+	display:inline-block;
+	margin:1px;
+	vertical-align:top;}
+.art_otros{
+	max-width:150px;
+	display:inline-block;
+	margin:1px;
+	vertical-align:top;}
+.logobajo{
+	width:35%;}
+.iconbajo{width:5%; opacity:.50;}	
+.fotos{
+	max-width:60px;
+	border:2px solid #666;
+	border-radius:8px;	
+	
+	opacity:1;
+ 	}
+.fotos:hover{
+	opacity: 0.5;
+    transition: all 0.3 ease; 
+	
+ }
+
+
+.foto_principal{
+	max-width:200px;
+	border:2px solid #666;
+	border-radius:8px;	
+	
+	opacity:1;
+ 	}
+.foto_principal:hover{
+	opacity: 0.5;
+    transition: all 0.3 ease; 
+	
+ }
+ 
+aside {
+	background-color:#FFF1D9;
+    float: right;
+    margin: 0 0 0 0;
+    width: 190px;
+}
+
+.banner{width:190px;}
+.banner2{width:400px;}
+
+.fotosm{
+	width:200px;
+	border:2px solid #666;
+	border-radius:8px;	
+	
+	opacity:1;
+ 	}
+.fotosm:hover{
+	opacity:2;
+    transition: all 0.3 ease; 
+	
+ }
+
+h1{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#000;
+	text-align:center;
+	font-size:14px;
+	}	
+h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#999;
+	text-align:center;
+	font-size:14px;
+	}	
+h3{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#000;
+	text-align:center;
+	font-size:14px;
+	}		
+a{ text-decoration:none;}	
+
+#principal{
+	display:none;}	
+
+#mesadirectiva{
+	max-width:100%;
+    float:none;
+
+	vertical-align:bottom;
+	}	
+	
+	
+	
+#mitabla{
+	width:100%;
+}
+	
+textarea{
+	 width: 98%;
+	 font-size:14px;
+	  padding-left:10px;
+	 border-radius: 8px;
+	}
+	 
+input{
+ width: 98%;
+ height:30px;
+ font-size:15px;
+ padding-left:10px;
+ border-radius: 8px;
+ color:#000;
+ background-color:#FFEBD7;
+
+ text-align:center;
+ }
+ 
+form{
+ max-width:70%;
+ height: auto;
+ margin: 0 auto;
+
+}
+
+.imagenes{
+	max-width:90%;}
+
+ 	
+
+#horizontal{display:block; width:70%;    border-radius: 20px;
+    margin-top: 10px;}
+#horizontal2{display:none;width:70%;}
+#vertical{display:none;width:70%;}
+
+@media screen and (max-width:768px){
+#img_logo{max-width:70%; display:none;}
+#img_logo2{max-width:70%; display:block;}
+#img_logo3{max-width:70%; display:none;}
+
+#_img_logo{max-width:30%; display:none;}
+#_img_logo2{max-width:50%; display:block;}
+#_img_logo3{max-width:30%; display:none;}
+
+#horizontal{display:none; width:70%;}
+#horizontal2{display:block;width:70%;}
+#vertical{display:none;width:70%;}
+
+}
+
+
+@media screen and (max-width:480px){
+#img_logo{max-width:70%; display:none;}
+#img_logo2{max-width:70; display:none;}
+#img_logo3{max-width:70%; display:block;} 
+
+#_img_logo{max-width:30%; display:none;}
+#_img_logo2{max-width:30%; display:none;}
+#_img_logo3{max-width:50%; display:block;}
+
+#horizontal{display:none; width:70%;}
+#horizontal2{display:none;width:70%;}
+#vertical{display:block;width:70%;}
+
+
+
+}
+
+.mi{
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-size:12px;
+	color:#666;}
+.texto{
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-size:18px;
+	color:black;
+	}
+.texto2{
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:justify;
+	font-size:18px;
+	color:#000;
+	margin:15px;
+	}	
+.texto3{
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-size:13px;
+	color:black;
+	margin:15px;
+	}		
+.pies{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+	
+	}	
+}
